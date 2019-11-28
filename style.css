@@ -1,0 +1,89 @@
+body
+{
+	margin: 0;
+	padding: 0,
+	box-sizing: border-box;
+}
+.header
+{
+	float: right;
+	flex-direction: row;
+}
+.header a, .header button
+{
+	margin: 10px;
+	color: #000;
+	text-decoration: none;
+}
+.header button
+{
+	background: #4484f1; 
+	padding: 8px;
+	font-size: 15px;
+	color: #fff;
+	border-radius: 10%;
+	font-weight: bold;
+}
+.main
+{
+	text-align: center;
+}
+.logo-img img
+{
+	width: 500px;
+	height: 200px;
+	margin-top: 10%;
+	margin-left: 15%;
+
+}
+.search-box input {
+	height: 40px;
+	width: 444px;
+}
+.footer-link a{
+	flex-direction: row;
+}
+.footer a{
+	margin: 10px;
+	color: #000;
+	text-decoration: none;
+	
+}
+.footer {
+	position: relative;
+	top: 270px;
+	background-color: #f2f2f2;
+	color: #6f6f6f;
+
+}
+.footer-right a{
+	position: relative;
+	left: 1100px;
+	top: 0px;
+	color: #6f6f6f
+
+}
+.footer-left a {
+	position: relative;
+	top: 20px;
+	color: #6f6f6f
+
+
+}
+.btn button{
+	position: relative;
+	top: 15px;
+	font-size: 15px; color: #222222;
+	border: 1px solid:#e4e4e4;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: #f6f6f6;
+	height: 38px; 
+
+}
+.search-box input{
+	border-radius: 10%;
+}
+.footer span{
+	font-size: large;
+}
